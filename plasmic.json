@@ -101,6 +101,16 @@
           "id": "-LYwI6-ft",
           "name": "image",
           "filePath": "../public/plasmic/blank_project/images/image.png"
+        },
+        {
+          "id": "Cpo9VQxn3",
+          "name": "image 2",
+          "filePath": "../public/plasmic/blank_project/images/image2.png"
+        },
+        {
+          "id": "uGSYJdva9",
+          "name": "image 3",
+          "filePath": "../public/plasmic/blank_project/images/image3.png"
         }
       ],
       "indirect": false,

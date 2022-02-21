@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import Button from "../../Button"; // plasmic-import: zoVuEjclQYu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: gMJdaty2uR/css
@@ -51,13 +50,14 @@ function PlasmicHomepage__RenderFunc(props) {
             projectcss.all,
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
           <div
-            data-plasmic-name={"columns"}
-            data-plasmic-override={overrides.columns}
-            className={classNames(projectcss.all, sty.columns)}
+            data-plasmic-name={"section1"}
+            data-plasmic-override={overrides.section1}
+            className={classNames(projectcss.all, sty.section1)}
           >
             <p.Stack
               as={"div"}
@@ -80,12 +80,10 @@ function PlasmicHomepage__RenderFunc(props) {
               </h1>
 
               <div
-                data-plasmic-name={"text"}
-                data-plasmic-override={overrides.text}
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text
+                  sty.text__xyoZo
                 )}
               >
                 {
@@ -93,13 +91,25 @@ function PlasmicHomepage__RenderFunc(props) {
                 }
               </div>
 
-              <Button
-                data-plasmic-name={"button"}
-                data-plasmic-override={overrides.button}
-                className={classNames("__wab_instance", sty.button)}
+              <button
+                className={classNames(
+                  projectcss.all,
+                  projectcss.button,
+                  projectcss.__wab_text,
+                  sty.button___2JnHo
+                )}
               >
-                {"En savoir plus"}
-              </Button>
+                <React.Fragment>
+                  <React.Fragment>{""}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#FFFFFF" }}
+                  >
+                    {"En savoir plus"}
+                  </span>
+                  <React.Fragment>{""}</React.Fragment>
+                </React.Fragment>
+              </button>
             </p.Stack>
 
             <div
@@ -108,10 +118,8 @@ function PlasmicHomepage__RenderFunc(props) {
               className={classNames(projectcss.all, sty.column2)}
             >
               <p.PlasmicImg
-                data-plasmic-name={"img"}
-                data-plasmic-override={overrides.img}
                 alt={""}
-                className={classNames(sty.img)}
+                className={classNames(sty.img__np82R)}
                 displayHeight={"auto"}
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -128,6 +136,176 @@ function PlasmicHomepage__RenderFunc(props) {
               />
             </div>
           </div>
+
+          <div
+            data-plasmic-name={"section2"}
+            data-plasmic-override={overrides.section2}
+            className={classNames(projectcss.all, sty.section2)}
+          >
+            <div
+              data-plasmic-name={"column4"}
+              data-plasmic-override={overrides.column4}
+              className={classNames(projectcss.all, sty.column4)}
+            >
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__htHu3)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/blank_project/images/image2.png",
+                  fullWidth: 1608,
+                  fullHeight: 1060,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"column3"}
+              data-plasmic-override={overrides.column3}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column3)}
+            >
+              <h2
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h2,
+                  projectcss.__wab_text,
+                  sty.h2__iLkWy
+                )}
+              >
+                {"La meilleure expérience de transformation numérique"}
+              </h2>
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__jMPxg
+                )}
+              >
+                {
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                }
+              </div>
+
+              <button
+                className={classNames(
+                  projectcss.all,
+                  projectcss.button,
+                  projectcss.__wab_text,
+                  sty.button__aM5Ic
+                )}
+              >
+                <React.Fragment>
+                  <React.Fragment>{""}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#FFFFFF" }}
+                  >
+                    {"Découvrir nos services"}
+                  </span>
+                  <React.Fragment>{""}</React.Fragment>
+                </React.Fragment>
+              </button>
+            </p.Stack>
+          </div>
+
+          <div
+            data-plasmic-name={"section3"}
+            data-plasmic-override={overrides.section3}
+            className={classNames(projectcss.all, sty.section3)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"column6"}
+              data-plasmic-override={overrides.column6}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column6)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"freeBox"}
+                data-plasmic-override={overrides.freeBox}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox)}
+              >
+                <h2
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h2,
+                    projectcss.__wab_text,
+                    sty.h2__yyAfJ
+                  )}
+                >
+                  {"Etes-vous en pénurie de main d'oeuvre ?"}
+                </h2>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ydF5T
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                  }
+                </div>
+
+                <button
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.button,
+                    projectcss.__wab_text,
+                    sty.button__snkuo
+                  )}
+                >
+                  <React.Fragment>
+                    <React.Fragment>{""}</React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ color: "#FFFFFF" }}
+                    >
+                      {"Demander une démo"}
+                    </span>
+                    <React.Fragment>{""}</React.Fragment>
+                  </React.Fragment>
+                </button>
+              </p.Stack>
+            </p.Stack>
+
+            <div
+              data-plasmic-name={"column5"}
+              data-plasmic-override={overrides.column5}
+              className={classNames(projectcss.all, sty.column5)}
+            >
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__htIim)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/blank_project/images/image3.png",
+                  fullWidth: 1732,
+                  fullHeight: 2834,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+          </div>
         </p.Stack>
       </div>
     </React.Fragment>
@@ -137,22 +315,30 @@ function PlasmicHomepage__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "columns",
+    "section1",
     "column1",
     "h1",
-    "text",
-    "button",
     "column2",
-    "img"
+    "section2",
+    "column4",
+    "column3",
+    "section3",
+    "column6",
+    "freeBox",
+    "column5"
   ],
 
-  columns: ["columns", "column1", "h1", "text", "button", "column2", "img"],
-  column1: ["column1", "h1", "text", "button"],
+  section1: ["section1", "column1", "h1", "column2"],
+  column1: ["column1", "h1"],
   h1: ["h1"],
-  text: ["text"],
-  button: ["button"],
-  column2: ["column2", "img"],
-  img: ["img"]
+  column2: ["column2"],
+  section2: ["section2", "column4", "column3"],
+  column4: ["column4"],
+  column3: ["column3"],
+  section3: ["section3", "column6", "freeBox", "column5"],
+  column6: ["column6", "freeBox"],
+  freeBox: ["freeBox"],
+  column5: ["column5"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -184,13 +370,17 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    columns: makeNodeComponent("columns"),
+    section1: makeNodeComponent("section1"),
     column1: makeNodeComponent("column1"),
     h1: makeNodeComponent("h1"),
-    text: makeNodeComponent("text"),
-    button: makeNodeComponent("button"),
     column2: makeNodeComponent("column2"),
-    img: makeNodeComponent("img"),
+    section2: makeNodeComponent("section2"),
+    column4: makeNodeComponent("column4"),
+    column3: makeNodeComponent("column3"),
+    section3: makeNodeComponent("section3"),
+    column6: makeNodeComponent("column6"),
+    freeBox: makeNodeComponent("freeBox"),
+    column5: makeNodeComponent("column5"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps
