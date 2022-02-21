@@ -55,27 +55,78 @@ function PlasmicHomepage__RenderFunc(props) {
           )}
         >
           <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            className={classNames(projectcss.all, sty.freeBox)}
+            data-plasmic-name={"columns"}
+            data-plasmic-override={overrides.columns}
+            className={classNames(projectcss.all, sty.columns)}
           >
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text
-              )}
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"column1"}
+              data-plasmic-override={overrides.column1}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column1)}
             >
-              {"Tooly"}
-            </div>
+              <h1
+                data-plasmic-name={"h1"}
+                data-plasmic-override={overrides.h1}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h1,
+                  projectcss.__wab_text,
+                  sty.h1
+                )}
+              >
+                {"Une expertise numérique dédiée aux entreprises de services"}
+              </h1>
 
-            <Button
-              data-plasmic-name={"button"}
-              data-plasmic-override={overrides.button}
-              className={classNames("__wab_instance", sty.button)}
-            />
+              <div
+                data-plasmic-name={"text"}
+                data-plasmic-override={overrides.text}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text
+                )}
+              >
+                {
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                }
+              </div>
+
+              <Button
+                data-plasmic-name={"button"}
+                data-plasmic-override={overrides.button}
+                className={classNames("__wab_instance", sty.button)}
+              >
+                {"En savoir plus"}
+              </Button>
+            </p.Stack>
+
+            <div
+              data-plasmic-name={"column2"}
+              data-plasmic-override={overrides.column2}
+              className={classNames(projectcss.all, sty.column2)}
+            >
+              <p.PlasmicImg
+                data-plasmic-name={"img"}
+                data-plasmic-override={overrides.img}
+                alt={""}
+                className={classNames(sty.img)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/blank_project/images/image.png",
+                  fullWidth: 1956,
+                  fullHeight: 1434,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
           </div>
         </p.Stack>
       </div>
@@ -84,10 +135,24 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "text", "button"],
-  freeBox: ["freeBox", "text", "button"],
+  root: [
+    "root",
+    "columns",
+    "column1",
+    "h1",
+    "text",
+    "button",
+    "column2",
+    "img"
+  ],
+
+  columns: ["columns", "column1", "h1", "text", "button", "column2", "img"],
+  column1: ["column1", "h1", "text", "button"],
+  h1: ["h1"],
   text: ["text"],
-  button: ["button"]
+  button: ["button"],
+  column2: ["column2", "img"],
+  img: ["img"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -119,9 +184,13 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
+    columns: makeNodeComponent("columns"),
+    column1: makeNodeComponent("column1"),
+    h1: makeNodeComponent("h1"),
     text: makeNodeComponent("text"),
     button: makeNodeComponent("button"),
+    column2: makeNodeComponent("column2"),
+    img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps

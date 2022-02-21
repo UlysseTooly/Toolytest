@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -96,6 +96,11 @@
           "id": "UvdDI0cZF1S",
           "name": "image.png",
           "filePath": "../public/plasmic/blank_project/images/imagepng.jpeg"
+        },
+        {
+          "id": "-LYwI6-ft",
+          "name": "image",
+          "filePath": "../public/plasmic/blank_project/images/image.png"
         }
       ],
       "indirect": false,
