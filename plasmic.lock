@@ -1,0 +1,79 @@
+{
+  "projects": [
+    {
+      "projectId": "4wuR6djweT7vAchr7evKHM",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "js",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "Ni-CroJ2mX1",
+          "checksum": "114f75c6a819fab129771f24779dab05"
+        },
+        {
+          "assetId": "4wuR6djweT7vAchr7evKHM",
+          "type": "projectCss",
+          "checksum": "f975c02c695bf5b4bada09d4c7daef67"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "gMJdaty2uR",
+          "checksum": "d80a4c14572e09a499242272ec04234e"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "gMJdaty2uR",
+          "checksum": "d80a4c14572e09a499242272ec04234e"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "DBwkQoA9lx",
+          "checksum": "41aafa40eea7bc0d20236867329db35a"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "DBwkQoA9lx",
+          "checksum": "41aafa40eea7bc0d20236867329db35a"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "zoVuEjclQYu",
+          "checksum": "bfb2729a20a3e29623d703f082d8d560"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "zoVuEjclQYu",
+          "checksum": "bfb2729a20a3e29623d703f082d8d560"
+        },
+        {
+          "type": "icon",
+          "assetId": "jDgJpgLRtKe",
+          "checksum": "da93118d3ad2b03a629344a58b2cfff3"
+        },
+        {
+          "type": "icon",
+          "assetId": "MpVavnGhqJz",
+          "checksum": "f5134e6e96dbeb5bb700e3462ca01e38"
+        },
+        {
+          "type": "icon",
+          "assetId": "r24BLGAZrIL",
+          "checksum": "ed217592dc27fd58c205d0067edb2d2e"
+        },
+        {
+          "type": "icon",
+          "assetId": "yvYX_C0m_5y",
+          "checksum": "7e6f109de4b144dc69a616b49ffa6b22"
+        },
+        {
+          "type": "image",
+          "assetId": "UvdDI0cZF1S",
+          "checksum": "65a0b6c9d826017a3fe4569e9484c48b"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.171"
+}
