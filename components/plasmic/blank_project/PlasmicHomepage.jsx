@@ -12,10 +12,13 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: gMJdaty2uR/css
@@ -26,6 +29,10 @@ export const PlasmicHomepage__ArgProps = new Array();
 
 function PlasmicHomepage__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsniCroJ2MX1()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -76,7 +83,9 @@ function PlasmicHomepage__RenderFunc(props) {
                   sty.h1
                 )}
               >
-                {"Une expertise numérique dédiée aux entreprises de services"}
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Une expertise numérique dédiée aux entreprises de services"
+                  : "Une expertise numérique dédiée aux entreprises de services"}
               </h1>
 
               <div
@@ -86,9 +95,9 @@ function PlasmicHomepage__RenderFunc(props) {
                   sty.text__xyoZo
                 )}
               >
-                {
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                }
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
               </div>
 
               <button
@@ -99,42 +108,59 @@ function PlasmicHomepage__RenderFunc(props) {
                   sty.button___2JnHo
                 )}
               >
-                <React.Fragment>
-                  <React.Fragment>{""}</React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ color: "#FFFFFF" }}
-                  >
-                    {"En savoir plus"}
-                  </span>
-                  <React.Fragment>{""}</React.Fragment>
-                </React.Fragment>
+                {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                  <React.Fragment>
+                    <React.Fragment>{""}</React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ color: "#FFFFFF" }}
+                    >
+                      {"En savoir plus"}
+                    </span>
+                    <React.Fragment>{""}</React.Fragment>
+                  </React.Fragment>
+                ) : (
+                  <React.Fragment>
+                    <React.Fragment>{""}</React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ color: "#FFFFFF" }}
+                    >
+                      {"En savoir plus"}
+                    </span>
+                    <React.Fragment>{""}</React.Fragment>
+                  </React.Fragment>
+                )}
               </button>
             </p.Stack>
 
-            <div
-              data-plasmic-name={"column2"}
-              data-plasmic-override={overrides.column2}
-              className={classNames(projectcss.all, sty.column2)}
-            >
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__np82R)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/blank_project/images/image.png",
-                  fullWidth: 1956,
-                  fullHeight: 1434,
-                  aspectRatio: undefined
-                }}
-              />
-            </div>
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
+              <div
+                data-plasmic-name={"column2"}
+                data-plasmic-override={overrides.column2}
+                className={classNames(projectcss.all, sty.column2)}
+              >
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__np82R)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/blank_project/images/image.png",
+                    fullWidth: 1956,
+                    fullHeight: 1434,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+            ) : null}
           </div>
 
           <div
@@ -230,56 +256,79 @@ function PlasmicHomepage__RenderFunc(props) {
               hasGap={true}
               className={classNames(projectcss.all, sty.column6)}
             >
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"freeBox"}
-                data-plasmic-override={overrides.freeBox}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox)}
-              >
-                <h2
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h2,
-                    projectcss.__wab_text,
-                    sty.h2__yyAfJ
-                  )}
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"freeBox"}
+                  data-plasmic-override={overrides.freeBox}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox)}
                 >
-                  {"Etes-vous en pénurie de main d'oeuvre ?"}
-                </h2>
+                  <h2
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.h2__yyAfJ
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "Êtes-vous en pénurie de main d'oeuvre ?"
+                      : "Etes-vous en pénurie de main d'oeuvre ?"}
+                  </h2>
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ydF5T
-                  )}
-                >
-                  {
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                  }
-                </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ydF5T
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                    }
+                  </div>
 
-                <button
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.button,
-                    projectcss.__wab_text,
-                    sty.button__snkuo
-                  )}
-                >
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF" }}
-                    >
-                      {"Demander une démo"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                </button>
-              </p.Stack>
+                  <button
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.button,
+                      projectcss.__wab_text,
+                      sty.button__snkuo
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Demander une démo"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#FFFFFF" }}
+                        >
+                          {"Demander une démo"}
+                        </span>
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    )}
+                  </button>
+                </p.Stack>
+              ) : null}
             </p.Stack>
 
             <div
