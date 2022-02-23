@@ -55,18 +55,17 @@
           "componentType": "page"
         },
         {
-          "id": "zoVuEjclQYu",
-          "name": "Button",
+          "id": "gIUt2Bx9WL",
+          "name": "Btn",
           "type": "managed",
           "projectId": "4wuR6djweT7vAchr7evKHM",
-          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton.jsx",
+          "renderModuleFilePath": "plasmic/tooly_services/PlasmicBtn.jsx",
           "importSpec": {
-            "modulePath": "Button.jsx"
+            "modulePath": "Btn.jsx"
           },
-          "cssFilePath": "plasmic/blank_project/PlasmicButton.module.css",
+          "cssFilePath": "plasmic/tooly_services/PlasmicBtn.module.css",
           "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "button"
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -111,6 +110,41 @@
           "id": "uGSYJdva9",
           "name": "image 3",
           "filePath": "../public/plasmic/blank_project/images/image3.png"
+        },
+        {
+          "id": "6kFBo9592",
+          "name": "image 4",
+          "filePath": "../public/plasmic/tooly_services/images/image4.png"
+        },
+        {
+          "id": "24Y8Wrfts",
+          "name": "image 5",
+          "filePath": "../public/plasmic/tooly_services/images/image5.png"
+        },
+        {
+          "id": "bcJobtBq6",
+          "name": "image 6",
+          "filePath": "../public/plasmic/tooly_services/images/image6.png"
+        },
+        {
+          "id": "JJ77iaeLq",
+          "name": "image 7",
+          "filePath": "../public/plasmic/tooly_services/images/image7.png"
+        },
+        {
+          "id": "gZII_VqJT",
+          "name": "Saly-24.png",
+          "filePath": "../public/plasmic/tooly_services/images/saly24Png.png"
+        },
+        {
+          "id": "7qP3Htifb",
+          "name": "Saly-43.png",
+          "filePath": "../public/plasmic/tooly_services/images/saly43Png.png"
+        },
+        {
+          "id": "mErsyhoK2",
+          "name": "Saly-24 (1).png",
+          "filePath": "../public/plasmic/tooly_services/images/saly241Png.png"
         }
       ],
       "indirect": false,
@@ -125,6 +159,12 @@
         "name": "Screen",
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "8NrdZIEYga",
+        "name": "Type",
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "contextFilePath": "plasmic/tooly_services/PlasmicGlobalVariant__Type.jsx"
       }
     ]
   },

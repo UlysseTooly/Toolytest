@@ -1,6 +1,26 @@
 {
   "props": [
     {
+      "name": "Dark",
+      "type": "color",
+      "value": "#1D2124",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "tEyO5nrum"
+      }
+    },
+    {
+      "name": "Primary",
+      "type": "color",
+      "value": "#FF482F",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "G3bw5jr37"
+      }
+    },
+    {
       "name": "UnnamedStyleToken",
       "type": "spacing",
       "value": "1px",
@@ -8,6 +28,46 @@
       "meta": {
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "id": "lDYmqBD6G"
+      }
+    },
+    {
+      "name": "bg-1",
+      "type": "color",
+      "value": "#EFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "Gd9vR8G21"
+      }
+    },
+    {
+      "name": "bg-2",
+      "type": "color",
+      "value": "#FFFFF2",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "Uy3IS1uls"
+      }
+    },
+    {
+      "name": "bg-3",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "8Fa4aMist"
+      }
+    },
+    {
+      "name": "black",
+      "type": "color",
+      "value": "#000000",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "RmFWU8DwY"
       }
     }
   ],

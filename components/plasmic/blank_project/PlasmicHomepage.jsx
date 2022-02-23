@@ -18,6 +18,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Btn from "../../Btn"; // plasmic-import: gIUt2Bx9WL/component
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
@@ -100,38 +101,12 @@ function PlasmicHomepage__RenderFunc(props) {
                   : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
               </div>
 
-              <button
-                className={classNames(
-                  projectcss.all,
-                  projectcss.button,
-                  projectcss.__wab_text,
-                  sty.button___2JnHo
-                )}
+              <Btn
+                className={classNames("__wab_instance", sty.btn__kZn96)}
+                type={"primary"}
               >
-                {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF" }}
-                    >
-                      {"En savoir plus"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                ) : (
-                  <React.Fragment>
-                    <React.Fragment>{""}</React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF" }}
-                    >
-                      {"En savoir plus"}
-                    </span>
-                    <React.Fragment>{""}</React.Fragment>
-                  </React.Fragment>
-                )}
-              </button>
+                {"En savoir plus"}
+              </Btn>
             </p.Stack>
 
             {(
@@ -222,25 +197,12 @@ function PlasmicHomepage__RenderFunc(props) {
                 }
               </div>
 
-              <button
-                className={classNames(
-                  projectcss.all,
-                  projectcss.button,
-                  projectcss.__wab_text,
-                  sty.button__aM5Ic
-                )}
+              <Btn
+                className={classNames("__wab_instance", sty.btn___5Ppy9)}
+                type={"secondary"}
               >
-                <React.Fragment>
-                  <React.Fragment>{""}</React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ color: "#FFFFFF" }}
-                  >
-                    {"Découvrir nos services"}
-                  </span>
-                  <React.Fragment>{""}</React.Fragment>
-                </React.Fragment>
-              </button>
+                {"Découvrir nos services"}
+              </Btn>
             </p.Stack>
           </div>
 
@@ -261,10 +223,8 @@ function PlasmicHomepage__RenderFunc(props) {
               ) ? (
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"freeBox"}
-                  data-plasmic-override={overrides.freeBox}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox)}
+                  className={classNames(projectcss.all, sty.freeBox__z7Xjc)}
                 >
                   <h2
                     className={classNames(
@@ -291,42 +251,12 @@ function PlasmicHomepage__RenderFunc(props) {
                     }
                   </div>
 
-                  <button
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.button,
-                      projectcss.__wab_text,
-                      sty.button__snkuo
-                    )}
+                  <Btn
+                    className={classNames("__wab_instance", sty.btn__skHxF)}
+                    type={"primary"}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                      <React.Fragment>
-                        <React.Fragment>{""}</React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#FFFFFF" }}
-                        >
-                          {"Demander une démo"}
-                        </span>
-                        <React.Fragment>{""}</React.Fragment>
-                      </React.Fragment>
-                    ) : (
-                      <React.Fragment>
-                        <React.Fragment>{""}</React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#FFFFFF" }}
-                        >
-                          {"Demander une démo"}
-                        </span>
-                        <React.Fragment>{""}</React.Fragment>
-                      </React.Fragment>
-                    )}
-                  </button>
+                    {"Demander une démo"}
+                  </Btn>
                 </p.Stack>
               ) : null}
             </p.Stack>
@@ -355,6 +285,584 @@ function PlasmicHomepage__RenderFunc(props) {
               />
             </div>
           </div>
+
+          <div className={classNames(projectcss.all, sty.columns___22BJp)}>
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column__foc4B)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__ypwWt
+                )}
+              >
+                {"Soyez indépendant de vos technologies"}
+              </div>
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__rSxR
+                )}
+              >
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
+              </div>
+
+              <Btn
+                className={classNames("__wab_instance", sty.btn__nhHb)}
+                type={"tertiary"}
+              >
+                {"Demander une démo"}
+              </Btn>
+            </p.Stack>
+
+            <div className={classNames(projectcss.all, sty.column__ie1Kl)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img___99Cjx)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/tooly_services/images/image4.png",
+                  fullWidth: 1776,
+                  fullHeight: 2128,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.columns__mg6Uq)}>
+            <div className={classNames(projectcss.all, sty.column__hlShc)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__elEDr)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"600px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/tooly_services/images/image5.png",
+                  fullWidth: 1254,
+                  fullHeight: 1046,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+
+            <div className={classNames(projectcss.all, sty.column__lpb3J)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__xkiKa
+                )}
+              >
+                {
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac magna id mi tristique tincidunt sit amet at odio. Praesent vel consequat mauris. \n\nNulla placerat sapien non faucibus hendrerit. Pellentesque in fringilla tellus. Aliquam id elit at erat sollicitudin iaculis. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna lectus. Suspendisse imperdiet justo vel sem accumsan, sed dapibus tellus consectetur."
+                }
+              </div>
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.columns__vvglt)}>
+            <div className={classNames(projectcss.all, sty.column__sn9Kl)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__z8ZqS)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"400px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/tooly_services/images/image6.png",
+                  fullWidth: 814,
+                  fullHeight: 1006,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column___9HpQq)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___0KV2D
+                )}
+              >
+                {"Pourquoi nous choisir"}
+              </div>
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__vFujV
+                )}
+              >
+                {hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
+              </div>
+
+              <Btn
+                className={classNames("__wab_instance", sty.btn__nab2T)}
+                type={"tertiary"}
+              >
+                {"Demander une démo"}
+              </Btn>
+            </p.Stack>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox__amEs7)}>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__rRcrj
+              )}
+            >
+              {"Faire affaire avec Tooly a quelques avantages"}
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox__wmaUi)}>
+            <div className={classNames(projectcss.all, sty.columns__pxT)}>
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__xOmVn)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__lriGu)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__kqkXj)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"75%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/tooly_services/images/image7.png",
+                      fullWidth: 439,
+                      fullHeight: 445,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___1UMxv
+                  )}
+                >
+                  {"Automatisation des tâches manuelles"}
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mlWf
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                  }
+                </div>
+              </p.Stack>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column___53Ax9)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__uiYg5)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__frHbW)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/tooly_services/images/saly24Png.png",
+                      fullWidth: 283,
+                      fullHeight: 282,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__vae5A
+                  )}
+                >
+                  {"Bien-être de vos employés"}
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__xvsWz
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                  }
+                </div>
+              </p.Stack>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__bfAfD)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__sl84N)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__uloY1)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/tooly_services/images/saly43Png.png",
+                      fullWidth: 681,
+                      fullHeight: 720,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__xhxB3
+                  )}
+                >
+                  {"Forte croissance"}
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__z8ORp
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                  }
+                </div>
+              </p.Stack>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__h9U31)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__eyq3R)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___2M1Iq)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/tooly_services/images/saly241Png.png",
+                      fullWidth: 222,
+                      fullHeight: 221,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__esqpf
+                  )}
+                >
+                  {"Vous rendre indépendants"}
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__lhpVv
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                  }
+                </div>
+              </p.Stack>
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox__fnEsm)}>
+            <div className={classNames(projectcss.all, sty.freeBox__brqlc)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__aNLl9
+                )}
+              >
+                {"Faire affaire avec Tooly a quelques avantages"}
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.freeBox___1ZZg1)}>
+              <div className={classNames(projectcss.all, sty.columns__aZyt2)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.column__rbxeT)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__cot7B)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__pzSum)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"75%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/tooly_services/images/image7.png",
+                        fullWidth: 439,
+                        fullHeight: 445,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__sJnv5
+                    )}
+                  >
+                    {"Automatisation des tâches manuelles"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___6MMfQ
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                    }
+                  </div>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.column___4TjZv)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__nC7PI)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__eE38A)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/tooly_services/images/saly24Png.png",
+                        fullWidth: 283,
+                        fullHeight: 282,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__mWy8C
+                    )}
+                  >
+                    {"Bien-être de vos employés"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fVSu
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                    }
+                  </div>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.column___5Id5C)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__aaNeG)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__hgh38)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/tooly_services/images/saly43Png.png",
+                        fullWidth: 681,
+                        fullHeight: 720,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__xFomn
+                    )}
+                  >
+                    {"Forte croissance"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___778KI
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                    }
+                  </div>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.column__b3MEq)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__goNna)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__tKc2V)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/tooly_services/images/saly241Png.png",
+                        fullWidth: 222,
+                        fullHeight: 221,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___1Xz2
+                    )}
+                  >
+                    {"Vous rendre indépendants"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ctAw2
+                    )}
+                  >
+                    {
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                    }
+                  </div>
+                </p.Stack>
+              </div>
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox__zdfCa)} />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -373,7 +881,6 @@ const PlasmicDescendants = {
     "column3",
     "section3",
     "column6",
-    "freeBox",
     "column5"
   ],
 
@@ -384,9 +891,8 @@ const PlasmicDescendants = {
   section2: ["section2", "column4", "column3"],
   column4: ["column4"],
   column3: ["column3"],
-  section3: ["section3", "column6", "freeBox", "column5"],
-  column6: ["column6", "freeBox"],
-  freeBox: ["freeBox"],
+  section3: ["section3", "column6", "column5"],
+  column6: ["column6"],
   column5: ["column5"]
 };
 
@@ -428,7 +934,6 @@ export const PlasmicHomepage = Object.assign(
     column3: makeNodeComponent("column3"),
     section3: makeNodeComponent("section3"),
     column6: makeNodeComponent("column6"),
-    freeBox: makeNodeComponent("freeBox"),
     column5: makeNodeComponent("column5"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
