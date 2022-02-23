@@ -653,7 +653,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   sty.text__aNLl9
                 )}
               >
-                {"Faire affaire avec Tooly a quelques avantages"}
+                {"Quelques exemples de processus que l'on maîtrise"}
               </div>
             </div>
 
@@ -672,15 +672,15 @@ function PlasmicHomepage__RenderFunc(props) {
                       className={classNames(sty.img__pzSum)}
                       displayHeight={"auto"}
                       displayMaxHeight={"none"}
-                      displayMaxWidth={"75%"}
+                      displayMaxWidth={"100%"}
                       displayMinHeight={"0"}
                       displayMinWidth={"0"}
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: "/plasmic/tooly_services/images/image7.png",
-                        fullWidth: 439,
-                        fullHeight: 445,
+                        src: "/plasmic/tooly_services/images/frame2791Png.png",
+                        fullWidth: 440,
+                        fullHeight: 441,
                         aspectRatio: undefined
                       }}
                     />
@@ -693,7 +693,7 @@ function PlasmicHomepage__RenderFunc(props) {
                       sty.text__sJnv5
                     )}
                   >
-                    {"Automatisation des tâches manuelles"}
+                    {"Processus de ventes"}
                   </div>
 
                   <div
@@ -728,9 +728,9 @@ function PlasmicHomepage__RenderFunc(props) {
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: "/plasmic/tooly_services/images/saly24Png.png",
-                        fullWidth: 283,
-                        fullHeight: 282,
+                        src: "/plasmic/tooly_services/images/frame2792Png.png",
+                        fullWidth: 441,
+                        fullHeight: 441,
                         aspectRatio: undefined
                       }}
                     />
@@ -743,7 +743,7 @@ function PlasmicHomepage__RenderFunc(props) {
                       sty.text__mWy8C
                     )}
                   >
-                    {"Bien-être de vos employés"}
+                    {"Processus de fidélisation de la clientèle"}
                   </div>
 
                   <div
@@ -778,9 +778,9 @@ function PlasmicHomepage__RenderFunc(props) {
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: "/plasmic/tooly_services/images/saly43Png.png",
-                        fullWidth: 681,
-                        fullHeight: 720,
+                        src: "/plasmic/tooly_services/images/frame2794Png.png",
+                        fullWidth: 440,
+                        fullHeight: 441,
                         aspectRatio: undefined
                       }}
                     />
@@ -793,7 +793,7 @@ function PlasmicHomepage__RenderFunc(props) {
                       sty.text__xFomn
                     )}
                   >
-                    {"Forte croissance"}
+                    {"Processus de gestion des ressources humaines"}
                   </div>
 
                   <div
@@ -828,9 +828,9 @@ function PlasmicHomepage__RenderFunc(props) {
                       displayWidth={"auto"}
                       loading={"lazy"}
                       src={{
-                        src: "/plasmic/tooly_services/images/saly241Png.png",
-                        fullWidth: 222,
-                        fullHeight: 221,
+                        src: "/plasmic/tooly_services/images/frame2795Png.png",
+                        fullWidth: 441,
+                        fullHeight: 441,
                         aspectRatio: undefined
                       }}
                     />
@@ -843,7 +843,7 @@ function PlasmicHomepage__RenderFunc(props) {
                       sty.text___1Xz2
                     )}
                   >
-                    {"Vous rendre indépendants"}
+                    {"Processus de logistique"}
                   </div>
 
                   <div
