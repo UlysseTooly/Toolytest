@@ -88,6 +88,21 @@
           "id": "yvYX_C0m_5y",
           "name": "Icon3Icon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "-qdmY5VIlr",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/tooly_services/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "yzOIY_O4mm",
+          "name": "Component2SvgIcon",
+          "moduleFilePath": "plasmic/tooly_services/icons/PlasmicIcon__Component2Svg.jsx"
+        },
+        {
+          "id": "Hui9IKs21",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/tooly_services/icons/PlasmicIcon__Icon5.jsx"
         }
       ],
       "images": [
@@ -165,6 +180,16 @@
           "id": "NrFdbwzfE",
           "name": "Frame 279 (5).png",
           "filePath": "../public/plasmic/tooly_services/images/frame2795Png.png"
+        },
+        {
+          "id": "G-e6ON6U-",
+          "name": "image 8",
+          "filePath": "../public/plasmic/tooly_services/images/image8.png"
+        },
+        {
+          "id": "qtBuWDoeU",
+          "name": "Mask group.png",
+          "filePath": "../public/plasmic/tooly_services/images/maskGrouppng.png"
         }
       ],
       "indirect": false,
