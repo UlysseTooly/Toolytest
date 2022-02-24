@@ -79,6 +79,19 @@
           "cssFilePath": "plasmic/tooly_services/PlasmicPageDesServices.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "dyqMpGltdR3",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
