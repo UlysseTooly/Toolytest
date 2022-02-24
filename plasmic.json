@@ -29,19 +29,6 @@
       "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
       "components": [
         {
-          "id": "gMJdaty2uR",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "4wuR6djweT7vAchr7evKHM",
-          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
-          "importSpec": {
-            "modulePath": "../pages/index.jsx"
-          },
-          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "DBwkQoA9lx",
           "name": "Artboard",
           "type": "managed",
@@ -66,6 +53,32 @@
           "cssFilePath": "plasmic/tooly_services/PlasmicBtn.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "gMJdaty2uR",
+          "name": "LandingPage",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services/PlasmicLandingPage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services/PlasmicLandingPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Ymczlosi7b",
+          "name": "PageDesServices",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services/PlasmicPageDesServices.jsx",
+          "importSpec": {
+            "modulePath": "../pages/page-des-services.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services/PlasmicPageDesServices.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -190,6 +203,16 @@
           "id": "qtBuWDoeU",
           "name": "Mask group.png",
           "filePath": "../public/plasmic/tooly_services/images/maskGrouppng.png"
+        },
+        {
+          "id": "ub7nXqU0-",
+          "name": "AdobeStock_313143806_Preview 1.png",
+          "filePath": "../public/plasmic/tooly_services/images/adobeStock313143806Preview1Png.png"
+        },
+        {
+          "id": "Dab89qjx3",
+          "name": "Rectangle.png",
+          "filePath": "../public/plasmic/tooly_services/images/rectanglepng.png"
         }
       ],
       "indirect": false,
