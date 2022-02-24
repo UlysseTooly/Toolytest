@@ -143,9 +143,9 @@ function PlasmicPageDesServices__RenderFunc(props) {
                           aspectRatio: undefined
                         }
                       : {
-                          src: "/plasmic/blank_project/images/image.png",
-                          fullWidth: 1956,
-                          fullHeight: 1434,
+                          src: "/plasmic/tooly_services/images/adobeStock313143806Preview1Png.png",
+                          fullWidth: 1612,
+                          fullHeight: 1200,
                           aspectRatio: undefined
                         }
                   }
@@ -199,37 +199,25 @@ function PlasmicPageDesServices__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div className={classNames(projectcss.all, sty.columns__uCczJ)}>
-            <div className={classNames(projectcss.all, sty.column__zs8Pk)}>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__mhS9H)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"400px"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/tooly_services/images/image6.png",
-                  fullWidth: 814,
-                  fullHeight: 1006,
-                  aspectRatio: undefined
-                }}
-              />
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.columns__z8Nyn)}
+          >
+            <div className={classNames(projectcss.all, sty.column__nodjz)}>
+              <div className={classNames(projectcss.all, sty.freeBox__a5Ot7)} />
             </div>
 
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(projectcss.all, sty.column__ouT8R)}
+              className={classNames(projectcss.all, sty.column__n1Lpk)}
             >
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__hCNq
+                  sty.text__gGqrt
                 )}
               >
                 {"Implémentation de logiciels"}
@@ -239,91 +227,83 @@ function PlasmicPageDesServices__RenderFunc(props) {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__t8RT
+                  sty.text___38256
                 )}
               >
                 {hasVariant(globalVariants, "screen", "mobileOnly")
                   ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
+                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, \n\nut placerat neque tempus non. Phasellus bibendum tortor est.ut placerat neque tempus non. Phasellus bibendum tortor est."}
               </div>
 
               <Btn
-                className={classNames("__wab_instance", sty.btn__gnqLm)}
+                className={classNames("__wab_instance", sty.btn__qZ0I)}
                 type={"tertiary"}
               >
                 {"En savoir plus"}
               </Btn>
             </p.Stack>
-          </div>
+          </p.Stack>
 
-          <div className={classNames(projectcss.all, sty.columns__caWK)}>
-            <div className={classNames(projectcss.all, sty.column__yvyMf)}>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__fpjJ6)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"400px"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/tooly_services/images/image6.png",
-                  fullWidth: 814,
-                  fullHeight: 1006,
-                  aspectRatio: undefined
-                }}
-              />
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.columns__nRx4U)}
+          >
+            <div className={classNames(projectcss.all, sty.column__hbKc7)}>
+              <div className={classNames(projectcss.all, sty.freeBox__oMQi6)} />
             </div>
 
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(projectcss.all, sty.column__kuLz)}
+              className={classNames(projectcss.all, sty.column__its3R)}
             >
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__hpRE
+                  sty.text___2XYq3
                 )}
               >
-                {"Automatisation & intégration"}
+                {"Formation de logiciels"}
               </div>
 
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text___0Xe
+                  sty.text__rNjTm
                 )}
               >
                 {hasVariant(globalVariants, "screen", "mobileOnly")
                   ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
+                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, \n\nut placerat neque tempus non. Phasellus bibendum tortor est.ut placerat neque tempus non. Phasellus bibendum tortor est."}
               </div>
 
               <Btn
-                className={classNames("__wab_instance", sty.btn__zo9Qu)}
+                className={classNames("__wab_instance", sty.btn__ekacE)}
                 type={"tertiary"}
               >
                 {"En savoir plus"}
               </Btn>
             </p.Stack>
-          </div>
+          </p.Stack>
 
-          <div className={classNames(projectcss.all, sty.columns__iYiUx)}>
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.columns__nmoLj)}
+          >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(projectcss.all, sty.column__jnNag)}
+              className={classNames(projectcss.all, sty.column__g8Hr)}
             >
               <div
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__mns6D
+                  sty.text__bgva3
                 )}
               >
                 {"Support 7j/7"}
@@ -333,42 +313,32 @@ function PlasmicPageDesServices__RenderFunc(props) {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__iLeMz
+                  sty.text__edUmW
                 )}
               >
                 {hasVariant(globalVariants, "screen", "mobileOnly")
                   ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
+                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, \n\nut placerat neque tempus non. Phasellus bibendum tortor est.ut placerat neque tempus non. Phasellus bibendum tortor est."}
               </div>
 
               <Btn
-                className={classNames("__wab_instance", sty.btn__cwgsq)}
+                className={classNames("__wab_instance", sty.btn__xZlKw)}
                 type={"tertiary"}
               >
                 {"En savoir plus"}
               </Btn>
             </p.Stack>
 
-            <div className={classNames(projectcss.all, sty.column__woBcA)}>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__wwfZx)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"400px"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/tooly_services/images/image6.png",
-                  fullWidth: 814,
-                  fullHeight: 1006,
-                  aspectRatio: undefined
-                }}
-              />
+            <div className={classNames(projectcss.all, sty.column__gHOwV)}>
+              <div className={classNames(projectcss.all, sty.freeBox__tj30F)}>
+                <div className={classNames(projectcss.all, sty.freeBox__s7Qnq)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__h6XWi)}
+                  />
+                </div>
+              </div>
             </div>
-          </div>
+          </p.Stack>
 
           <div className={classNames(projectcss.all, sty.freeBox__x2Mg8)}>
             <div className={classNames(projectcss.all, sty.freeBox__c9P)}>
