@@ -859,40 +859,11 @@ function PlasmicPageDesServices__RenderFunc(props) {
                 data-plasmic-override={overrides.column4}
                 className={classNames(projectcss.all, sty.column4)}
               >
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__woyYp)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "100%"
-                      : "100%"
-                  }
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "lazy"
-                      : "lazy"
-                  }
-                  src={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? {
-                          src: "/plasmic/blank_project/images/image.png",
-                          fullWidth: 1956,
-                          fullHeight: 1434,
-                          aspectRatio: undefined
-                        }
-                      : {
-                          src: "/plasmic/blank_project/images/image.png",
-                          fullWidth: 1956,
-                          fullHeight: 1434,
-                          aspectRatio: undefined
-                        }
-                  }
-                />
+                <div className={classNames(projectcss.all, sty.freeBox__tRePk)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__vrPyv)}
+                  />
+                </div>
               </div>
             ) : null}
 
@@ -925,7 +896,7 @@ function PlasmicPageDesServices__RenderFunc(props) {
               >
                 {hasVariant(globalVariants, "screen", "mobileOnly")
                   ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."}
+                  : "Découvrez pourquoi nous sommes pationnés par les entreprises de services"}
               </div>
 
               <Btn
