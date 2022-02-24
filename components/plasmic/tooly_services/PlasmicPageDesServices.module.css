@@ -2140,7 +2140,7 @@
   max-width: 100%;
   background: var(--token-8Fa4aMist);
   min-width: 0;
-  padding: 0px;
+  padding: 0px 80px 80px;
 }
 .footer {
   display: flex;
