@@ -29,19 +29,6 @@
       "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
       "components": [
         {
-          "id": "DBwkQoA9lx",
-          "name": "Artboard",
-          "type": "managed",
-          "projectId": "4wuR6djweT7vAchr7evKHM",
-          "renderModuleFilePath": "plasmic/blank_project/PlasmicArtboard.jsx",
-          "importSpec": {
-            "modulePath": "../pages/artboard.jsx"
-          },
-          "cssFilePath": "plasmic/blank_project/PlasmicArtboard.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "gIUt2Bx9WL",
           "name": "Btn",
           "type": "managed",
@@ -90,6 +77,45 @@
             "modulePath": "Footer.jsx"
           },
           "cssFilePath": "plasmic/tooly_services_website/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6mELIlZc-b",
+          "name": "FormationLogiciels",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicFormationLogiciels.jsx",
+          "importSpec": {
+            "modulePath": "../pages/formation-logiciels.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicFormationLogiciels.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "NLp0vyHVOW",
+          "name": "ContactPage",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicContactPage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact-page.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicContactPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "95iARoofeE",
+          "name": "Field",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicField.jsx",
+          "importSpec": {
+            "modulePath": "Field.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicField.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
@@ -256,6 +282,51 @@
           "id": "M4S2n0kng",
           "name": "IMG_0944 1.png",
           "filePath": "../public/plasmic/tooly_services/images/img09441Png.png"
+        },
+        {
+          "id": "uZSYDO9tL",
+          "name": "Saly-24 (4).png",
+          "filePath": "../public/plasmic/tooly_services_website/images/saly244Png.png"
+        },
+        {
+          "id": "Cu9qZ--EL",
+          "name": "AdobeStock_260037662_Preview 1.png",
+          "filePath": "../public/plasmic/tooly_services_website/images/adobeStock260037662Preview1Png.png"
+        },
+        {
+          "id": "vq2AEAYf8",
+          "name": "AdobeStock_260037662_Preview 1 (1).png",
+          "filePath": "../public/plasmic/tooly_services_website/images/adobeStock260037662Preview11Png.png"
+        },
+        {
+          "id": "3iJHvygaF",
+          "name": "AdobeStock_313143806_Preview 1.png 2",
+          "filePath": "../public/plasmic/tooly_services_website/images/adobeStock313143806Preview1Png2.png"
+        },
+        {
+          "id": "b-KI9Iv-F",
+          "name": "Saly-24 (4).png 2",
+          "filePath": "../public/plasmic/tooly_services_website/images/saly244Png2.png"
+        },
+        {
+          "id": "YNwfkOb3m",
+          "name": "Frame 261.png",
+          "filePath": "../public/plasmic/tooly_services_website/images/frame261Png.jpeg"
+        },
+        {
+          "id": "aR9sbfijn",
+          "name": "AdobeStock_431987802_Preview 1.png 2",
+          "filePath": "../public/plasmic/tooly_services_website/images/adobeStock431987802Preview1Png2.png"
+        },
+        {
+          "id": "Bo0LqjFW_",
+          "name": "AdobeStock_271046895_Preview 1.png",
+          "filePath": "../public/plasmic/tooly_services_website/images/adobeStock271046895Preview1Png.png"
+        },
+        {
+          "id": "XRINaTUsf",
+          "name": "AdobeStock_271046895.png",
+          "filePath": "../public/plasmic/tooly_services_website/images/adobeStock271046895Png.jpeg"
         }
       ],
       "indirect": false,

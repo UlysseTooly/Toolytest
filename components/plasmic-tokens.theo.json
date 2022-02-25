@@ -69,6 +69,26 @@
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "id": "RmFWU8DwY"
       }
+    },
+    {
+      "name": "gap/1",
+      "type": "spacing",
+      "value": "80px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "FaIRKTSiC"
+      }
+    },
+    {
+      "name": "gap/2",
+      "type": "spacing",
+      "value": "30px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "ybicqmvPW"
+      }
     }
   ],
   "global": {

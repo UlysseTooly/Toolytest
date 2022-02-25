@@ -13,6 +13,10 @@
   --plasmic-token-bg-2: var(--token-Uy3IS1uls);
   --token-8Fa4aMist: #ffffff;
   --plasmic-token-bg-3: var(--token-8Fa4aMist);
+  --token-FaIRKTSiC: 80px;
+  --plasmic-token-gap-1: var(--token-FaIRKTSiC);
+  --token-ybicqmvPW: 30px;
+  --plasmic-token-gap-2: var(--token-ybicqmvPW);
 }
 
 @media (max-width: 2000px) {
@@ -23,6 +27,8 @@
     --plasmic-token-bg-2: var(--token-Uy3IS1uls);
     --token-8Fa4aMist: #ffffff;
     --plasmic-token-bg-3: var(--token-8Fa4aMist);
+    --token-ybicqmvPW: 0px;
+    --plasmic-token-gap-2: var(--token-ybicqmvPW);
   }
 }
 
