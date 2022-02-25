@@ -116,7 +116,16 @@ function PlasmicLandingPage__RenderFunc(props) {
 
                 <Btn
                   className={classNames("__wab_instance", sty.btn__kZn96)}
-                  type={"primary"}
+                  size={
+                    hasVariant(globalVariants, "screen", "laptopsmall")
+                      ? "_1"
+                      : undefined
+                  }
+                  type={
+                    hasVariant(globalVariants, "screen", "laptopsmall")
+                      ? "primary"
+                      : "primary"
+                  }
                 >
                   {"En savoir plus"}
                 </Btn>

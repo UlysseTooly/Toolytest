@@ -21,6 +21,7 @@ import {
 import Container from "../../Container"; // plasmic-import: _Yie3ivvsh/component
 import Navbar from "../../Navbar"; // plasmic-import: tjz-vApnh_/component
 import Btn from "../../Btn"; // plasmic-import: gIUt2Bx9WL/component
+import { Video } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: RhitNJW5Zu-/codeComponent
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
@@ -474,6 +475,123 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                 </div>
               </p.Stack>
             </div>
+
+            <Container
+              bg={"_2"}
+              className={classNames("__wab_instance", sty.container__xqWnv)}
+            >
+              <div className={classNames(projectcss.all, sty.freeBox__xnXZp)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yge9Q
+                  )}
+                >
+                  {"Comment notre recommandation de logiciels fonctionne ? "}
+                </div>
+
+                <div className={classNames(projectcss.all, sty.columns__ezSMg)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__gxK4W)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__kEpUr)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__yesnn
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__tAKu6
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                        }
+                      </div>
+                    </p.Stack>
+
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___469Qe
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__wtSfo
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__mnLoF
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                        }
+                      </div>
+                    </p.Stack>
+
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__wDxjv)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__mQ74
+                        )}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__m5Zy1
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                        }
+                      </div>
+                    </p.Stack>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.column__useud)}
+                  >
+                    <Video
+                      data-plasmic-name={"htmlVideo"}
+                      data-plasmic-override={overrides.htmlVideo}
+                      className={classNames("__wab_instance", sty.htmlVideo)}
+                      poster={
+                        '"/plasmic/tooly_services_website/images/apercupng.png"'
+                      }
+                      src={
+                        "https://tooly.ai/wp-content/uploads/2020/11/ezgif.com-gif-maker-1.gif"
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </Container>
           </Container>
         </div>
       </div>
@@ -490,7 +608,8 @@ const PlasmicDescendants = {
     "h1",
     "btn",
     "column2",
-    "section"
+    "section",
+    "htmlVideo"
   ],
 
   navbar: ["navbar"],
@@ -499,7 +618,8 @@ const PlasmicDescendants = {
   h1: ["h1"],
   btn: ["btn"],
   column2: ["column2"],
-  section: ["section"]
+  section: ["section"],
+  htmlVideo: ["htmlVideo"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -538,6 +658,7 @@ export const PlasmicRecommandationLogiciel = Object.assign(
     btn: makeNodeComponent("btn"),
     column2: makeNodeComponent("column2"),
     section: makeNodeComponent("section"),
+    htmlVideo: makeNodeComponent("htmlVideo"),
     // Metadata about props expected for PlasmicRecommandationLogiciel
     internalVariantProps: PlasmicRecommandationLogiciel__VariantProps,
     internalArgProps: PlasmicRecommandationLogiciel__ArgProps

@@ -494,6 +494,11 @@
     react-aria "^3.7.0"
     react-stately "^3.6.0"
 
+"@plasmicpkgs/plasmic-basic-components@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-basic-components/-/plasmic-basic-components-0.0.22.tgz#b7e993ae373125aef8ed9b56628d8a3809241f2d"
+  integrity sha512-4JnhlrKlh/toLOQTCuHNtSetcgTv+u3ES+E2ApsNjopgF2IniQ+jmhNp4JnjHoISjYt/mziMeBppZOAkGEnl6Q==
+
 "@react-aria/breadcrumbs@^3.1.7":
   version "3.1.7"
   resolved "https://registry.yarnpkg.com/@react-aria/breadcrumbs/-/breadcrumbs-3.1.7.tgz#968f0e19b126f9acafebafb63d04fd77ed6091f7"

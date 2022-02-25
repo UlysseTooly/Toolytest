@@ -371,11 +371,60 @@
           "id": "zjJzgcTKlV",
           "name": "Tooly.svg",
           "filePath": "../public/plasmic/tooly_services_website/images/toolysvg.svg"
+        },
+        {
+          "id": "OfywMeMmH",
+          "name": "Rectangle.png 2",
+          "filePath": "../public/plasmic/tooly_services_website/images/rectanglepng2.png"
+        },
+        {
+          "id": "4Szn0pac5",
+          "name": "Capture d’écran 2022-02-25 à 09.59.24.png",
+          "filePath": "../public/plasmic/tooly_services_website/images/captureDecran20220225A095924Png.png"
+        },
+        {
+          "id": "18R2IYaTE",
+          "name": "aperçu.png",
+          "filePath": "../public/plasmic/tooly_services_website/images/apercupng.png"
         }
       ],
       "indirect": false,
       "globalContextsFilePath": "",
       "codeComponents": []
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "2.2.1",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "Tg8iODh_BQ",
+          "name": "EmbedCss",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
     }
   ],
   "globalVariants": {
@@ -391,6 +440,12 @@
         "name": "Type",
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "contextFilePath": "plasmic/tooly_services/PlasmicGlobalVariant__Type.jsx"
+      },
+      {
+        "id": "q2e6W8ulGYz",
+        "name": "Screen",
+        "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+        "contextFilePath": "plasmic/plasmic_basic_components/PlasmicGlobalVariant__Screen.jsx"
       }
     ]
   },
