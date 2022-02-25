@@ -46,7 +46,8 @@ function PlasmicContainer__RenderFunc(props) {
         sty.root,
         {
           [sty.rootbg__1]: hasVariant(variants, "bg", "_1"),
-          [sty.rootbg__2]: hasVariant(variants, "bg", "_2")
+          [sty.rootbg__2]: hasVariant(variants, "bg", "_2"),
+          [sty.rootbg__3]: hasVariant(variants, "bg", "_3")
         }
       )}
     >

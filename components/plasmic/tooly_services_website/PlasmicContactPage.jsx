@@ -71,6 +71,7 @@ function PlasmicContactPage__RenderFunc(props) {
             <Navbar
               data-plasmic-name={"navbar"}
               data-plasmic-override={overrides.navbar}
+              activeLink={"contact"}
               className={classNames("__wab_instance", sty.navbar)}
             />
 

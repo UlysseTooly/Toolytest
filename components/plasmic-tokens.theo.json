@@ -161,6 +161,16 @@
       }
     },
     {
+      "name": "grey",
+      "type": "color",
+      "value": "#ABABAB",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "A39EMuItk"
+      }
+    },
+    {
       "name": "red/hover",
       "type": "color",
       "value": "#FF482F1A",

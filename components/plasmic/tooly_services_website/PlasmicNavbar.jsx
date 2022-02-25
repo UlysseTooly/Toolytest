@@ -9,8 +9,10 @@
 // Plasmic Project: 4wuR6djweT7vAchr7evKHM
 // Component: tjz-vApnh_
 import * as React from "react";
+import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -20,7 +22,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
 import sty from "./PlasmicNavbar.module.css"; // plasmic-import: tjz-vApnh_/css
 
-export const PlasmicNavbar__VariantProps = new Array();
+export const PlasmicNavbar__VariantProps = new Array("activeLink");
 
 export const PlasmicNavbar__ArgProps = new Array();
 
@@ -40,7 +42,15 @@ function PlasmicNavbar__RenderFunc(props) {
         sty.root
       )}
     >
-      <div className={classNames(projectcss.all, sty.freeBox___9OYs2)}>
+      <div
+        className={classNames(projectcss.all, sty.freeBox___9OYs2, {
+          [sty.freeBoxactiveLink_services___9OYs2U6YAp]: hasVariant(
+            variants,
+            "activeLink",
+            "services"
+          )
+        })}
+      >
         <p.Stack
           as={"div"}
           hasGap={true}
@@ -53,7 +63,31 @@ function PlasmicNavbar__RenderFunc(props) {
               sty.text__mmY1R
             )}
           >
-            {"Contact"}
+            <React.Fragment>
+              <React.Fragment>{""}</React.Fragment>
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  projectcss.plasmic_default__inline,
+                  sty.link__kSjVd,
+                  {
+                    [sty.linkactiveLink_contact__kSjVdzqOAb]: hasVariant(
+                      variants,
+                      "activeLink",
+                      "contact"
+                    )
+                  }
+                )}
+                component={Link}
+                href={"https://toolytest.plasmic.site/contact-page/"}
+                platform={"nextjs"}
+              >
+                {"Contact"}
+              </p.PlasmicLink>
+              <React.Fragment>{""}</React.Fragment>
+            </React.Fragment>
           </div>
 
           <div
@@ -63,7 +97,31 @@ function PlasmicNavbar__RenderFunc(props) {
               sty.text___1NKjm
             )}
           >
-            {"Services"}
+            <React.Fragment>
+              <React.Fragment>{""}</React.Fragment>
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  projectcss.plasmic_default__inline,
+                  sty.link__cmocW,
+                  {
+                    [sty.linkactiveLink_services__cmocWu6YAp]: hasVariant(
+                      variants,
+                      "activeLink",
+                      "services"
+                    )
+                  }
+                )}
+                component={Link}
+                href={"https://toolytest.plasmic.site/page-des-services/"}
+                platform={"nextjs"}
+              >
+                {"Services"}
+              </p.PlasmicLink>
+              <React.Fragment>{""}</React.Fragment>
+            </React.Fragment>
           </div>
 
           <div

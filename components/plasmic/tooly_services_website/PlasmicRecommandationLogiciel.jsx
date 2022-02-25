@@ -22,6 +22,7 @@ import Container from "../../Container"; // plasmic-import: _Yie3ivvsh/component
 import Navbar from "../../Navbar"; // plasmic-import: tjz-vApnh_/component
 import Btn from "../../Btn"; // plasmic-import: gIUt2Bx9WL/component
 import { Video } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: RhitNJW5Zu-/codeComponent
+import Footer from "../../Footer"; // plasmic-import: dyqMpGltdR3/component
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
@@ -88,13 +89,11 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                 className={classNames(projectcss.all, sty.column1)}
               >
                 <h1
-                  data-plasmic-name={"h1"}
-                  data-plasmic-override={overrides.h1}
                   className={classNames(
                     projectcss.all,
                     projectcss.h1,
                     projectcss.__wab_text,
-                    sty.h1
+                    sty.h1__wfrs4
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "mobileOnly")
@@ -115,9 +114,7 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                 </div>
 
                 <Btn
-                  data-plasmic-name={"btn"}
-                  data-plasmic-override={overrides.btn}
-                  className={classNames("__wab_instance", sty.btn)}
+                  className={classNames("__wab_instance", sty.btn__zbXFj)}
                   type={"primary"}
                 >
                   {"Réserver votre recommandation gratuire"}
@@ -495,7 +492,11 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                   {"Comment notre recommandation de logiciels fonctionne ? "}
                 </div>
 
-                <div className={classNames(projectcss.all, sty.columns__ezSMg)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.columns__ezSMg)}
+                >
                   <div
                     className={classNames(projectcss.all, sty.column__gxK4W)}
                   >
@@ -596,9 +597,379 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                       }
                     />
                   </div>
-                </div>
+                </p.Stack>
               </p.Stack>
+
+              <Container
+                bg={"_3"}
+                className={classNames("__wab_instance", sty.container__bhPh9)}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__rZoQv)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__bmajm)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__kIyd0
+                      )}
+                    >
+                      {"Recommandations de logiciels populaires"}
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___79OEj)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.columns__cyD3I)}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.column__gazhb
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__ehKq8
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__ijOlN)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"auto"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/tooly_services/images/frame2791Png.png",
+                              fullWidth: 440,
+                              fullHeight: 441,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__v1Is5
+                          )}
+                        >
+                          {
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                          }
+                        </div>
+                      </p.Stack>
+
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.column___7Yn56
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__tjm
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__naqLo)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"auto"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/tooly_services/images/frame2792Png.png",
+                              fullWidth: 441,
+                              fullHeight: 441,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__nkPti
+                          )}
+                        >
+                          {
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                          }
+                        </div>
+                      </p.Stack>
+
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.column__obp53
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__wkwir
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img___3LjFs)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"auto"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/tooly_services/images/frame2794Png.png",
+                              fullWidth: 440,
+                              fullHeight: 441,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__c8UvT
+                          )}
+                        >
+                          {
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                          }
+                        </div>
+                      </p.Stack>
+
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.column___01CeV
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__cBdCg
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__d5MBh)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"auto"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/tooly_services/images/frame2795Png.png",
+                              fullWidth: 441,
+                              fullHeight: 441,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__mz0Zf
+                          )}
+                        >
+                          {
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit"
+                          }
+                        </div>
+                      </p.Stack>
+                    </p.Stack>
+                  </div>
+
+                  <Btn
+                    className={classNames("__wab_instance", sty.btn___7Ijap)}
+                    type={"secondary"}
+                  >
+                    {"Rejoignez l'aventure"}
+                  </Btn>
+                </p.Stack>
+              </Container>
             </Container>
+          </Container>
+
+          <Container
+            bg={"_1"}
+            className={classNames("__wab_instance", sty.container__yeXKo)}
+          >
+            <div
+              data-plasmic-name={"section5"}
+              data-plasmic-override={overrides.section5}
+              className={classNames(projectcss.all, sty.section5)}
+            >
+              <div className={classNames(projectcss.all, sty.column__bxFa)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__ufRn)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"400px"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/tooly_services/images/image6.png",
+                    fullWidth: 814,
+                    fullHeight: 1006,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__fp7Kg)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__a5Vqb
+                  )}
+                >
+                  {"Combien coûte notre recommandation de logiciels ?"}
+                </div>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__hIRx
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                    : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est\n\nuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est.."}
+                </div>
+
+                <Btn
+                  className={classNames("__wab_instance", sty.btn__f0GcW)}
+                  type={"primary"}
+                >
+                  {"Réserver gratuitement"}
+                </Btn>
+              </p.Stack>
+            </div>
+          </Container>
+
+          <Container
+            bg={"_2"}
+            className={classNames("__wab_instance", sty.container__x7YVt)}
+          >
+            <div
+              data-plasmic-name={"section2"}
+              data-plasmic-override={overrides.section2}
+              className={classNames(projectcss.all, sty.section2)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"column3"}
+                data-plasmic-override={overrides.column3}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column3)}
+              >
+                <h1
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h1,
+                    projectcss.__wab_text,
+                    sty.h1__ubK47
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "Une expertise numérique dédiée aux entreprises de services"
+                    : "Vous souhaitez en savoir plus sur notre  accompagnement ? "}
+                </h1>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__v5U6
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nQuisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                    : "Découvrez pourquoi nous sommes pationnés par les entreprises de services"}
+                </div>
+
+                <Btn
+                  className={classNames("__wab_instance", sty.btn__ca1Go)}
+                  type={"primary"}
+                >
+                  {"En savoir plus"}
+                </Btn>
+              </p.Stack>
+
+              {(
+                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+              ) ? (
+                <div
+                  data-plasmic-name={"column4"}
+                  data-plasmic-override={overrides.column4}
+                  className={classNames(projectcss.all, sty.column4)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__sdGs7)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___4MBjh
+                      )}
+                    />
+                  </div>
+                </div>
+              ) : null}
+            </div>
+
+            <Footer
+              data-plasmic-name={"footer"}
+              data-plasmic-override={overrides.footer}
+              className={classNames("__wab_instance", sty.footer)}
+            />
           </Container>
         </div>
       </div>
@@ -612,21 +983,27 @@ const PlasmicDescendants = {
     "navbar",
     "section1",
     "column1",
-    "h1",
-    "btn",
     "column2",
     "section",
-    "htmlVideo"
+    "htmlVideo",
+    "section5",
+    "section2",
+    "column3",
+    "column4",
+    "footer"
   ],
 
   navbar: ["navbar"],
-  section1: ["section1", "column1", "h1", "btn", "column2"],
-  column1: ["column1", "h1", "btn"],
-  h1: ["h1"],
-  btn: ["btn"],
+  section1: ["section1", "column1", "column2"],
+  column1: ["column1"],
   column2: ["column2"],
   section: ["section"],
-  htmlVideo: ["htmlVideo"]
+  htmlVideo: ["htmlVideo"],
+  section5: ["section5"],
+  section2: ["section2", "column3", "column4"],
+  column3: ["column3"],
+  column4: ["column4"],
+  footer: ["footer"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -661,11 +1038,14 @@ export const PlasmicRecommandationLogiciel = Object.assign(
     navbar: makeNodeComponent("navbar"),
     section1: makeNodeComponent("section1"),
     column1: makeNodeComponent("column1"),
-    h1: makeNodeComponent("h1"),
-    btn: makeNodeComponent("btn"),
     column2: makeNodeComponent("column2"),
     section: makeNodeComponent("section"),
     htmlVideo: makeNodeComponent("htmlVideo"),
+    section5: makeNodeComponent("section5"),
+    section2: makeNodeComponent("section2"),
+    column3: makeNodeComponent("column3"),
+    column4: makeNodeComponent("column4"),
+    footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicRecommandationLogiciel
     internalVariantProps: PlasmicRecommandationLogiciel__VariantProps,
     internalArgProps: PlasmicRecommandationLogiciel__ArgProps

@@ -41,6 +41,10 @@
   --plasmic-token-red-hover: var(--token-uv8_jYB64);
   --token-GNIPMKJWX: Inter;
   --plasmic-token-font-title: var(--token-GNIPMKJWX);
+  --token-A39EMuItk: #ababab;
+  --plasmic-token-grey: var(--token-A39EMuItk);
+  --token-A39EMuItk: #ababab;
+  --plasmic-token-grey: var(--token-A39EMuItk);
 }
 
 @media (max-width: 2000px) {

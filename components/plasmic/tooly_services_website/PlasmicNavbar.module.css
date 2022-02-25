@@ -63,6 +63,15 @@
   height: auto;
   max-width: 800px;
 }
+.link__kSjVd {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--token-tEyO5nrum);
+}
+.linkactiveLink_contact__kSjVdzqOAb {
+  color: var(--token-A39EMuItk);
+}
 .text___1NKjm {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -72,6 +81,15 @@
   width: auto;
   height: auto;
   max-width: 800px;
+}
+.link__cmocW {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--token-tEyO5nrum);
+}
+.linkactiveLink_services__cmocWu6YAp {
+  color: var(--token-A39EMuItk);
 }
 .text__u6GaZ {
   font-family: "Roboto", sans-serif;
