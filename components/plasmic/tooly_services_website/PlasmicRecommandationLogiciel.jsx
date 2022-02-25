@@ -480,7 +480,11 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
               bg={"_2"}
               className={classNames("__wab_instance", sty.container__xqWnv)}
             >
-              <div className={classNames(projectcss.all, sty.freeBox__xnXZp)}>
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__xnXZp)}
+              >
                 <div
                   className={classNames(
                     projectcss.all,
@@ -593,7 +597,7 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                     />
                   </div>
                 </div>
-              </div>
+              </p.Stack>
             </Container>
           </Container>
         </div>
