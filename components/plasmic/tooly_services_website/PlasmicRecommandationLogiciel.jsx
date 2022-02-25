@@ -580,10 +580,13 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                     <Video
                       data-plasmic-name={"htmlVideo"}
                       data-plasmic-override={overrides.htmlVideo}
+                      autoPlay={true}
                       className={classNames("__wab_instance", sty.htmlVideo)}
+                      loop={true}
                       poster={
                         '"/plasmic/tooly_services_website/images/apercupng.png"'
                       }
+                      preload={"none"}
                       src={
                         "https://tooly.ai/wp-content/uploads/2020/11/ezgif.com-gif-maker-1.gif"
                       }
