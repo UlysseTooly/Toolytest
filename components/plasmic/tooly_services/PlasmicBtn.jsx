@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
 import sty from "./PlasmicBtn.module.css"; // plasmic-import: gIUt2Bx9WL/css
 
-export const PlasmicBtn__VariantProps = new Array("type");
+export const PlasmicBtn__VariantProps = new Array("type", "size");
 
 export const PlasmicBtn__ArgProps = new Array("children");
 
@@ -39,6 +39,7 @@ function PlasmicBtn__RenderFunc(props) {
         projectcss.plasmic_tokens,
         sty.root,
         {
+          [sty.rootsize__2]: hasVariant(variants, "size", "_2"),
           [sty.roottype_primary]: hasVariant(variants, "type", "primary"),
           [sty.roottype_secondary]: hasVariant(variants, "type", "secondary"),
           [sty.roottype_tertiary]: hasVariant(variants, "type", "tertiary")
@@ -57,6 +58,7 @@ function PlasmicBtn__RenderFunc(props) {
           defaultContents: "label",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
+            [sty.slotTargetChildrensize__2]: hasVariant(variants, "size", "_2"),
             [sty.slotTargetChildrentype_primary]: hasVariant(
               variants,
               "type",

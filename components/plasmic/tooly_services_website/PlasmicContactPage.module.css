@@ -11,6 +11,10 @@
   min-width: 0;
   min-height: 0;
 }
+.navbar:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
 .container {
   display: flex;
   position: relative;
@@ -20,7 +24,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  background: none;
+  background: var(--token-Gd9vR8G21);
   min-width: 0;
   padding: 0px;
 }

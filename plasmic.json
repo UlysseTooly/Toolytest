@@ -131,6 +131,19 @@
           "cssFilePath": "plasmic/tooly_services_website/PlasmicContainer.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "tjz-vApnh_",
+          "name": "Navbar3",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicNavbar3.jsx",
+          "importSpec": {
+            "modulePath": "Navbar3.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicNavbar3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -340,6 +353,11 @@
           "id": "XRINaTUsf",
           "name": "AdobeStock_271046895.png",
           "filePath": "../public/plasmic/tooly_services_website/images/adobeStock271046895Png.jpeg"
+        },
+        {
+          "id": "zjJzgcTKlV",
+          "name": "Tooly.svg",
+          "filePath": "../public/plasmic/tooly_services_website/images/toolysvg.svg"
         }
       ],
       "indirect": false,

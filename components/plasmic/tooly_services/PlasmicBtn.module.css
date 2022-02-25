@@ -26,6 +26,9 @@
   background: none;
   border: 1px solid #1d2124;
 }
+.rootsize__2 {
+  padding: var(--token-iyUTOBaKR) var(--token--KFj8yiqd);
+}
 .freeBox {
   position: relative;
   width: 100%;
@@ -43,4 +46,7 @@
 }
 .slotTargetChildrentype_tertiary {
   color: #1d2124;
+}
+.slotTargetChildrensize__2 {
+  font-size: 16px;
 }
