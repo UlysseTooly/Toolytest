@@ -149,6 +149,16 @@
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "id": "iyUTOBaKR"
       }
+    },
+    {
+      "name": "red/hover",
+      "type": "color",
+      "value": "#FF482F1A",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "uv8_jYB64"
+      }
     }
   ],
   "global": {

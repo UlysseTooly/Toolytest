@@ -17,7 +17,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import Navbar3 from "../../Navbar3"; // plasmic-import: tjz-vApnh_/component
+import Container from "../../Container"; // plasmic-import: _Yie3ivvsh/component
+import Navbar from "../../Navbar"; // plasmic-import: tjz-vApnh_/component
 import Field from "../../Field"; // plasmic-import: 95iARoofeE/component
 import Footer from "../../Footer"; // plasmic-import: dyqMpGltdR3/component
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
@@ -61,17 +62,18 @@ function PlasmicContactPage__RenderFunc(props) {
             sty.root
           )}
         >
-          <Navbar3
-            data-plasmic-name={"navbar"}
-            data-plasmic-override={overrides.navbar}
-            className={classNames("__wab_instance", sty.navbar)}
-          />
-
-          <div
+          <Container
             data-plasmic-name={"container"}
             data-plasmic-override={overrides.container}
-            className={classNames(projectcss.all, sty.container)}
+            bg={"_1"}
+            className={classNames("__wab_instance", sty.container)}
           >
+            <Navbar
+              data-plasmic-name={"navbar"}
+              data-plasmic-override={overrides.navbar}
+              className={classNames("__wab_instance", sty.navbar)}
+            />
+
             <p.Stack
               as={"div"}
               data-plasmic-name={"columns"}
@@ -242,7 +244,7 @@ function PlasmicContactPage__RenderFunc(props) {
                 </Field>
               </p.Stack>
             </p.Stack>
-          </div>
+          </Container>
 
           <Footer
             data-plasmic-name={"footer"}
@@ -256,9 +258,9 @@ function PlasmicContactPage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "container", "columns", "img", "footer"],
+  root: ["root", "container", "navbar", "columns", "img", "footer"],
+  container: ["container", "navbar", "columns", "img"],
   navbar: ["navbar"],
-  container: ["container", "columns", "img"],
   columns: ["columns", "img"],
   img: ["img"],
   footer: ["footer"]
@@ -293,8 +295,8 @@ export const PlasmicContactPage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbar: makeNodeComponent("navbar"),
     container: makeNodeComponent("container"),
+    navbar: makeNodeComponent("navbar"),
     columns: makeNodeComponent("columns"),
     img: makeNodeComponent("img"),
     footer: makeNodeComponent("footer"),

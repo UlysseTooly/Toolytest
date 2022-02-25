@@ -134,16 +134,29 @@
         },
         {
           "id": "tjz-vApnh_",
-          "name": "Navbar3",
+          "name": "Navbar",
           "type": "managed",
           "projectId": "4wuR6djweT7vAchr7evKHM",
-          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicNavbar3.jsx",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicNavbar.jsx",
           "importSpec": {
-            "modulePath": "Navbar3.jsx"
+            "modulePath": "Navbar.jsx"
           },
-          "cssFilePath": "plasmic/tooly_services_website/PlasmicNavbar3.module.css",
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicNavbar.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "4Tj1PFl3Qc",
+          "name": "RecommandationLogiciel",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicRecommandationLogiciel.jsx",
+          "importSpec": {
+            "modulePath": "../pages/recommandation-logiciel.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicRecommandationLogiciel.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

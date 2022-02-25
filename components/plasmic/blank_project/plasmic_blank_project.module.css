@@ -35,6 +35,10 @@
   --plasmic-token-grey-light: var(--token-u4q9OlMGk);
   --token-XGdqdVl4H: 200px;
   --plasmic-token-big: var(--token-XGdqdVl4H);
+  --token-uv8_jYB64: #ff482f1a;
+  --plasmic-token-red-hover: var(--token-uv8_jYB64);
+  --token-uv8_jYB64: #ff482f1a;
+  --plasmic-token-red-hover: var(--token-uv8_jYB64);
 }
 
 @media (max-width: 2000px) {

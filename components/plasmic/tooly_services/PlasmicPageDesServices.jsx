@@ -18,6 +18,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Container from "../../Container"; // plasmic-import: _Yie3ivvsh/component
+import Navbar from "../../Navbar"; // plasmic-import: tjz-vApnh_/component
 import Btn from "../../Btn"; // plasmic-import: gIUt2Bx9WL/component
 import Footer from "../../Footer"; // plasmic-import: dyqMpGltdR3/component
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
@@ -61,11 +63,18 @@ function PlasmicPageDesServices__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"containerPourBg"}
-            data-plasmic-override={overrides.containerPourBg}
-            className={classNames(projectcss.all, sty.containerPourBg)}
+          <Container
+            data-plasmic-name={"container"}
+            data-plasmic-override={overrides.container}
+            bg={"_1"}
+            className={classNames("__wab_instance", sty.container)}
           >
+            <Navbar
+              data-plasmic-name={"navbar"}
+              data-plasmic-override={overrides.navbar}
+              className={classNames("__wab_instance", sty.navbar)}
+            />
+
             <div
               data-plasmic-name={"section1"}
               data-plasmic-override={overrides.section1}
@@ -156,7 +165,7 @@ function PlasmicPageDesServices__RenderFunc(props) {
                 </div>
               ) : null}
             </div>
-          </div>
+          </Container>
 
           <p.Stack
             as={"div"}
@@ -924,7 +933,8 @@ function PlasmicPageDesServices__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "containerPourBg",
+    "container",
+    "navbar",
     "section1",
     "column1",
     "column2",
@@ -940,7 +950,8 @@ const PlasmicDescendants = {
     "footer"
   ],
 
-  containerPourBg: ["containerPourBg", "section1", "column1", "column2"],
+  container: ["container", "navbar", "section1", "column1", "column2"],
+  navbar: ["navbar"],
   section1: ["section1", "column1", "column2"],
   column1: ["column1"],
   column2: ["column2"],
@@ -985,7 +996,8 @@ export const PlasmicPageDesServices = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    containerPourBg: makeNodeComponent("containerPourBg"),
+    container: makeNodeComponent("container"),
+    navbar: makeNodeComponent("navbar"),
     section1: makeNodeComponent("section1"),
     column1: makeNodeComponent("column1"),
     column2: makeNodeComponent("column2"),

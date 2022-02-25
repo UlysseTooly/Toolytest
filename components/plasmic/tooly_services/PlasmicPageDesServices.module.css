@@ -10,18 +10,13 @@
   min-width: 0;
   min-height: 0;
 }
-.containerPourBg {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  height: auto;
+.container:global(.__wab_instance) {
   max-width: 100%;
-  background: var(--token-Gd9vR8G21);
-  min-width: 0;
-  padding: 8px;
+  position: relative;
+}
+.navbar:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }
 .section1 {
   max-width: 1600px;

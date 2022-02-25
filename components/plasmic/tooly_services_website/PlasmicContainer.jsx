@@ -9,6 +9,7 @@
 // Plasmic Project: 4wuR6djweT7vAchr7evKHM
 // Component: _Yie3ivvsh
 import * as React from "react";
+import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -23,7 +24,7 @@ import sty from "./PlasmicContainer.module.css"; // plasmic-import: _Yie3ivvsh/c
 
 export const PlasmicContainer__VariantProps = new Array("bg");
 
-export const PlasmicContainer__ArgProps = new Array();
+export const PlasmicContainer__ArgProps = new Array("children");
 
 function PlasmicContainer__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -48,7 +49,12 @@ function PlasmicContainer__RenderFunc(props) {
           [sty.rootbg__2]: hasVariant(variants, "bg", "_2")
         }
       )}
-    />
+    >
+      {p.renderPlasmicSlot({
+        defaultContents: null,
+        value: args.children
+      })}
+    </div>
   );
 }
 

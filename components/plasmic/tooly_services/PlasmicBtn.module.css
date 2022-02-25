@@ -29,6 +29,20 @@
 .rootsize__2 {
   padding: var(--token-iyUTOBaKR) var(--token--KFj8yiqd);
 }
+.root:hover {
+  background: var(--token-uv8_jYB64);
+  border: 1px solid var(--token-tEyO5nrum);
+}
+.roottype_primary:hover {
+  background: none;
+  border-color: var(--token-G3bw5jr37);
+}
+.roottype_secondary:hover {
+  background: none;
+}
+.roottype_tertiary:hover {
+  background: var(--token-tEyO5nrum);
+}
 .freeBox {
   position: relative;
   width: 100%;
@@ -49,4 +63,13 @@
 }
 .slotTargetChildrensize__2 {
   font-size: 16px;
+}
+.root:hover .slotTargetChildren {
+  color: var(--token-tEyO5nrum);
+}
+.roottype_primary:hover .slotTargetChildrentype_primary {
+  color: var(--token-G3bw5jr37);
+}
+.roottype_tertiary:hover .slotTargetChildrentype_tertiary {
+  color: var(--token-8Fa4aMist);
 }

@@ -14,8 +14,10 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
 import sty from "./PlasmicBtn.module.css"; // plasmic-import: gIUt2Bx9WL/css
@@ -26,6 +28,10 @@ export const PlasmicBtn__ArgProps = new Array("children");
 
 function PlasmicBtn__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsniCroJ2MX1()
+  });
+
   return (
     <div
       data-plasmic-name={"root"}
@@ -63,6 +69,12 @@ function PlasmicBtn__RenderFunc(props) {
               variants,
               "type",
               "primary"
+            ),
+
+            [sty.slotTargetChildrentype_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
             ),
 
             [sty.slotTargetChildrentype_tertiary]: hasVariant(
