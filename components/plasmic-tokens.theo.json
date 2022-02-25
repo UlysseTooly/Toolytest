@@ -31,6 +31,16 @@
       }
     },
     {
+      "name": "Font/Title",
+      "type": "fontfamily",
+      "value": "Inter",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "GNIPMKJWX"
+      }
+    },
+    {
       "name": "Grey/light",
       "type": "color",
       "value": "#DFE1E1",

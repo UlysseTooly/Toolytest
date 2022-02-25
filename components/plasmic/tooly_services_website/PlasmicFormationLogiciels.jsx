@@ -18,6 +18,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Container from "../../Container"; // plasmic-import: _Yie3ivvsh/component
+import Navbar from "../../Navbar"; // plasmic-import: tjz-vApnh_/component
 import Btn from "../../Btn"; // plasmic-import: gIUt2Bx9WL/component
 import Footer from "../../Footer"; // plasmic-import: dyqMpGltdR3/component
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
@@ -61,11 +63,18 @@ function PlasmicFormationLogiciels__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"containerPourBg"}
-            data-plasmic-override={overrides.containerPourBg}
-            className={classNames(projectcss.all, sty.containerPourBg)}
+          <Container
+            data-plasmic-name={"container"}
+            data-plasmic-override={overrides.container}
+            bg={"_1"}
+            className={classNames("__wab_instance", sty.container)}
           >
+            <Navbar
+              data-plasmic-name={"navbar"}
+              data-plasmic-override={overrides.navbar}
+              className={classNames("__wab_instance", sty.navbar)}
+            />
+
             <p.Stack
               as={"div"}
               data-plasmic-name={"section1"}
@@ -127,7 +136,7 @@ function PlasmicFormationLogiciels__RenderFunc(props) {
                 </Btn>
               </p.Stack>
             </p.Stack>
-          </div>
+          </Container>
 
           <div className={classNames(projectcss.all, sty.freeBox__guj0L)}>
             <div className={classNames(projectcss.all, sty.freeBox__yUyQv)}>
@@ -848,7 +857,8 @@ function PlasmicFormationLogiciels__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "containerPourBg",
+    "container",
+    "navbar",
     "section1",
     "column2",
     "column1",
@@ -867,7 +877,8 @@ const PlasmicDescendants = {
     "footer"
   ],
 
-  containerPourBg: ["containerPourBg", "section1", "column2", "column1"],
+  container: ["container", "navbar", "section1", "column2", "column1"],
+  navbar: ["navbar"],
   section1: ["section1", "column2", "column1"],
   column2: ["column2"],
   column1: ["column1"],
@@ -915,7 +926,8 @@ export const PlasmicFormationLogiciels = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    containerPourBg: makeNodeComponent("containerPourBg"),
+    container: makeNodeComponent("container"),
+    navbar: makeNodeComponent("navbar"),
     section1: makeNodeComponent("section1"),
     column2: makeNodeComponent("column2"),
     column1: makeNodeComponent("column1"),

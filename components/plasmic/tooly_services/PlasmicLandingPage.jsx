@@ -150,79 +150,79 @@ function PlasmicLandingPage__RenderFunc(props) {
                 </div>
               ) : null}
             </div>
+          </Container>
 
-            <Container
-              bg={"_2"}
-              className={classNames("__wab_instance", sty.container__aYfUv)}
+          <Container
+            bg={"_2"}
+            className={classNames("__wab_instance", sty.container__aYfUv)}
+          >
+            <div
+              data-plasmic-name={"section2"}
+              data-plasmic-override={overrides.section2}
+              className={classNames(projectcss.all, sty.section2)}
             >
               <div
-                data-plasmic-name={"section2"}
-                data-plasmic-override={overrides.section2}
-                className={classNames(projectcss.all, sty.section2)}
+                data-plasmic-name={"column4"}
+                data-plasmic-override={overrides.column4}
+                className={classNames(projectcss.all, sty.column4)}
               >
-                <div
-                  data-plasmic-name={"column4"}
-                  data-plasmic-override={overrides.column4}
-                  className={classNames(projectcss.all, sty.column4)}
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__htHu3)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/blank_project/images/image2.png",
+                    fullWidth: 1608,
+                    fullHeight: 1060,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"column3"}
+                data-plasmic-override={overrides.column3}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column3)}
+              >
+                <h2
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h2,
+                    projectcss.__wab_text,
+                    sty.h2__iLkWy
+                  )}
                 >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__htHu3)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/blank_project/images/image2.png",
-                      fullWidth: 1608,
-                      fullHeight: 1060,
-                      aspectRatio: undefined
-                    }}
-                  />
+                  {"La meilleure expérience de transformation numérique"}
+                </h2>
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__jMPxg
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
+                  }
                 </div>
 
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"column3"}
-                  data-plasmic-override={overrides.column3}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.column3)}
+                <Btn
+                  className={classNames("__wab_instance", sty.btn___5Ppy9)}
+                  type={"secondary"}
                 >
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2__iLkWy
-                    )}
-                  >
-                    {"La meilleure expérience de transformation numérique"}
-                  </h2>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__jMPxg
-                    )}
-                  >
-                    {
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada hendrerit elit, ut placerat neque tempus non. Phasellus bibendum tortor est."
-                    }
-                  </div>
-
-                  <Btn
-                    className={classNames("__wab_instance", sty.btn___5Ppy9)}
-                    type={"secondary"}
-                  >
-                    {"Découvrir nos services"}
-                  </Btn>
-                </p.Stack>
-              </div>
-            </Container>
+                  {"Découvrir nos services"}
+                </Btn>
+              </p.Stack>
+            </div>
           </Container>
 
           <Container
