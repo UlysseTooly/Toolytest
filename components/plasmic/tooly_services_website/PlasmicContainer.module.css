@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.rootbg__1 {
+  background: var(--token-Gd9vR8G21);
+}
+.rootbg__2 {
+  background: var(--token-Uy3IS1uls);
+}

@@ -118,6 +118,19 @@
           "cssFilePath": "plasmic/tooly_services_website/PlasmicField.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "_Yie3ivvsh",
+          "name": "Container",
+          "type": "managed",
+          "projectId": "4wuR6djweT7vAchr7evKHM",
+          "renderModuleFilePath": "plasmic/tooly_services_website/PlasmicContainer.jsx",
+          "importSpec": {
+            "modulePath": "Container.jsx"
+          },
+          "cssFilePath": "plasmic/tooly_services_website/PlasmicContainer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

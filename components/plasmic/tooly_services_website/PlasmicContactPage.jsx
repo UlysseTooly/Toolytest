@@ -18,6 +18,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Field from "../../Field"; // plasmic-import: 95iARoofeE/component
+import Footer from "../../Footer"; // plasmic-import: dyqMpGltdR3/component
 import { useScreenVariants as useScreenVariantsniCroJ2MX1 } from "../blank_project/PlasmicGlobalVariant__Screen"; // plasmic-import: Ni-CroJ2mX1/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../blank_project/plasmic_blank_project.module.css"; // plasmic-import: 4wuR6djweT7vAchr7evKHM/projectcss
@@ -71,7 +72,11 @@ function PlasmicContactPage__RenderFunc(props) {
               hasGap={true}
               className={classNames(projectcss.all, sty.columns)}
             >
-              <div className={classNames(projectcss.all, sty.column__sSo9G)}>
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__sSo9G)}
+              >
                 <div
                   className={classNames(
                     projectcss.all,
@@ -86,20 +91,60 @@ function PlasmicContactPage__RenderFunc(props) {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__qCpTk
+                    sty.text__xx2Tj
                   )}
                 >
-                  {"Nous sommes à votre écoute"}
+                  {"Nous sommes à votre écoute!"}
                 </div>
 
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__xx2Tj
+                    sty.text__qCpTk
                   )}
                 >
-                  {"Paragraphe"}
+                  <React.Fragment>
+                    <React.Fragment>{""}</React.Fragment>
+                    <span
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.span,
+                        projectcss.__wab_text,
+                        projectcss.plasmic_default__inline,
+                        sty.span___3PuJl
+                      )}
+                    >
+                      {"Siège social"}
+                    </span>
+                    <React.Fragment>
+                      {"\n205-5570 rue Cartier, Montréal\n"}
+                    </React.Fragment>
+                    <span
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.span,
+                        projectcss.__wab_text,
+                        projectcss.plasmic_default__inline,
+                        sty.span__zMrZx
+                      )}
+                    >
+                      {"Numéro de téléphone"}
+                    </span>
+                    <React.Fragment>{"\n438 822-1064\n"}</React.Fragment>
+                    <span
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.span,
+                        projectcss.__wab_text,
+                        projectcss.plasmic_default__inline,
+                        sty.span__yLwy
+                      )}
+                    >
+                      {"Courriel"}
+                    </span>
+                    <React.Fragment>{"\ninfo@tooly.ai"}</React.Fragment>
+                  </React.Fragment>
                 </div>
 
                 <div
@@ -107,7 +152,7 @@ function PlasmicContactPage__RenderFunc(props) {
                   data-plasmic-override={overrides.img}
                   className={classNames(projectcss.all, sty.img)}
                 />
-              </div>
+              </p.Stack>
 
               <p.Stack
                 as={"div"}
@@ -129,23 +174,74 @@ function PlasmicContactPage__RenderFunc(props) {
                 <Field
                   className={classNames("__wab_instance", sty.field__q9Kje)}
                 >
-                  {"Numéro de téléphone"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__bhiu1
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>{"Numéro de téléphone "}</React.Fragment>
+                      <span
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.span,
+                          projectcss.__wab_text,
+                          projectcss.plasmic_default__inline,
+                          sty.span__tjJge
+                        )}
+                      >
+                        {"*"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  </div>
                 </Field>
 
                 <Field
                   className={classNames("__wab_instance", sty.field__mQ9I)}
                 >
-                  {"Adresse e-mail"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hgBpb
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>{"Adresse e-mail "}</React.Fragment>
+                      <span
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.span,
+                          projectcss.__wab_text,
+                          projectcss.plasmic_default__inline,
+                          sty.span__bZwSz
+                        )}
+                      >
+                        {"*"}
+                      </span>
+                      <React.Fragment>{""}</React.Fragment>
+                    </React.Fragment>
+                  </div>
                 </Field>
 
                 <Field
                   className={classNames("__wab_instance", sty.field__jP4I9)}
+                  size={"_2"}
                 >
                   {"Votre message"}
                 </Field>
               </p.Stack>
             </p.Stack>
           </div>
+
+          <Footer
+            data-plasmic-name={"footer"}
+            data-plasmic-override={overrides.footer}
+            className={classNames("__wab_instance", sty.footer)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -153,10 +249,11 @@ function PlasmicContactPage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "container", "columns", "img"],
+  root: ["root", "container", "columns", "img", "footer"],
   container: ["container", "columns", "img"],
   columns: ["columns", "img"],
-  img: ["img"]
+  img: ["img"],
+  footer: ["footer"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -191,6 +288,7 @@ export const PlasmicContactPage = Object.assign(
     container: makeNodeComponent("container"),
     columns: makeNodeComponent("columns"),
     img: makeNodeComponent("img"),
+    footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicContactPage
     internalVariantProps: PlasmicContactPage__VariantProps,
     internalArgProps: PlasmicContactPage__ArgProps

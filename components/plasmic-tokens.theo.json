@@ -1,6 +1,26 @@
 {
   "props": [
     {
+      "name": "18",
+      "type": "spacing",
+      "value": "18px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "6jjP14Rol"
+      }
+    },
+    {
+      "name": "24",
+      "type": "spacing",
+      "value": "24px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "-KFj8yiqd"
+      }
+    },
+    {
       "name": "Dark",
       "type": "color",
       "value": "#1D2124",
@@ -8,6 +28,16 @@
       "meta": {
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "id": "tEyO5nrum"
+      }
+    },
+    {
+      "name": "Grey/light",
+      "type": "color",
+      "value": "#DFE1E1",
+      "category": "color",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "u4q9OlMGk"
       }
     },
     {
@@ -61,6 +91,16 @@
       }
     },
     {
+      "name": "big",
+      "type": "spacing",
+      "value": "200px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "XGdqdVl4H"
+      }
+    },
+    {
       "name": "black",
       "type": "color",
       "value": "#000000",
@@ -88,6 +128,26 @@
       "meta": {
         "projectId": "4wuR6djweT7vAchr7evKHM",
         "id": "ybicqmvPW"
+      }
+    },
+    {
+      "name": "gap/2",
+      "type": "spacing",
+      "value": "20px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "U3MQLo7xX"
+      }
+    },
+    {
+      "name": "gap/3",
+      "type": "spacing",
+      "value": "8px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "4wuR6djweT7vAchr7evKHM",
+        "id": "iyUTOBaKR"
       }
     }
   ],
