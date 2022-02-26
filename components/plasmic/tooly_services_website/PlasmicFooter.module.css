@@ -175,7 +175,20 @@
   width: 100%;
   height: auto;
   max-width: 800px;
+  padding-left: 0px;
   min-width: 0;
+}
+.link__wh020 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--token-tEyO5nrum);
+}
+.link__lpjFu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--token-tEyO5nrum);
 }
 .column__b2LAo {
   flex-direction: column;

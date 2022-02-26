@@ -9,6 +9,7 @@
 // Plasmic Project: 4wuR6djweT7vAchr7evKHM
 // Component: dyqMpGltdR3
 import * as React from "react";
+import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
   classNames,
@@ -104,9 +105,45 @@ function PlasmicFooter__RenderFunc(props) {
                 sty.text__bbXjz
               )}
             >
-              {
-                "Recommandation de logiciels\nImplémentation de logiciels\nFormation\nIntégration et automatisation\nSupport"
-              }
+              <React.Fragment>
+                <React.Fragment>{""}</React.Fragment>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    projectcss.plasmic_default__inline,
+                    sty.link__wh020
+                  )}
+                  component={Link}
+                  href={
+                    "https://toolytest.plasmic.site/recommandation-logiciel/"
+                  }
+                  platform={"nextjs"}
+                >
+                  {"Recommandation de logiciels"}
+                </p.PlasmicLink>
+                <React.Fragment>
+                  {"\nImplémentation de logiciels\n"}
+                </React.Fragment>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
+                    projectcss.plasmic_default__inline,
+                    sty.link__lpjFu
+                  )}
+                  component={Link}
+                  href={"https://toolytest.plasmic.site/formation-logiciels/"}
+                  platform={"nextjs"}
+                >
+                  {"Formation"}
+                </p.PlasmicLink>
+                <React.Fragment>
+                  {"\nIntégration et automatisation\nSupport"}
+                </React.Fragment>
+              </React.Fragment>
             </div>
           </p.Stack>
 

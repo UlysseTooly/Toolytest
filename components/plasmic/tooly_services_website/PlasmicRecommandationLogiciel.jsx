@@ -587,6 +587,7 @@ function PlasmicRecommandationLogiciel__RenderFunc(props) {
                       data-plasmic-override={overrides.htmlVideo}
                       autoPlay={true}
                       className={classNames("__wab_instance", sty.htmlVideo)}
+                      controls={true}
                       loop={true}
                       poster={
                         '"/plasmic/tooly_services_website/images/apercupng.png"'
